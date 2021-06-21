@@ -8,7 +8,7 @@ const gacha = require('./gacha');
 
 //Set listener on 'ready'
 bot.on('ready', () => {
-  console.log('Gacha ready!');
+  console.log('Prêt pour les invocs!');
 });
 
 //Set listener on 'message'
@@ -18,4 +18,4 @@ bot.on('message', message => {
   }
 });
 
-bot.login('YOUR BOT TOKEN HERE!!!');
+bot.login('process.env.TOKEN');
